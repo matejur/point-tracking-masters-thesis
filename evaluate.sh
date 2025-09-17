@@ -1,0 +1,17 @@
+python evaluate.py \
+    --dataset "<tapvid_davis or tapvid_kinetics>" \
+    --query_mode "<first or strided>" \
+    --dataset_path "<path_to_selected_dataset>" \
+    --mast3r_weights "<path_to_dynamic_mast3r_weights>" \
+    --refiner_weights "<path_to_refiner_weights>" \
+    --anchor_selection_strategy "last_n_visible_plus_query" \
+    --add_query_frame_token True \
+    --add_positional_encoding True \
+    --processing_size 512 \
+    --num_anchors 4 \
+    --refiner_iter 1 \
+    --region_size 11 \
+    --use_guess_coords False \
+    --use_gt_occlusion False \
+    --output_dir "<output_directory>" \
+    --display_progress

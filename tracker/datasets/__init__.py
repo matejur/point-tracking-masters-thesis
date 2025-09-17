@@ -1,0 +1,1 @@
+from .kubric_seq import KubricSeq  # noqa

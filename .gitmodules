@@ -1,0 +1,3 @@
+[submodule "dynamic_mast3r"]
+	path = dynamic_mast3r
+	url = git@github.com:matejur/dynamic_mast3r.git
