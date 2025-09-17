@@ -66,7 +66,7 @@ def sinusoidal_embedding_table(length, dim):
 class Refinement(nn.Module):
     def __init__(
         self,
-        region_size=7,
+        region_size=11,
         add_query_frame_token=True,
         add_positional_encoding=True,
     ):

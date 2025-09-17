@@ -24,7 +24,7 @@ def plot_masks(video, masks, out_resolution=(1024, 1024)):
     return mediapy.resize_video(out_video, out_resolution)
 
 
-def plot_tracks(video, tracks, gt, visible, gt_visible,out_resolution=(1024, 1024), write_track_id=False):
+def plot_tracks(video, tracks, gt, visible, gt_visible, out_resolution=(1024, 1024), write_track_id=False):
     T, H, W, C = video.shape
     tracks = tracks * np.array(out_resolution) / np.array([W, H])
 
