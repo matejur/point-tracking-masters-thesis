@@ -261,7 +261,7 @@ class Tracker:
         point_predictions = utils.revert_resize(
             point_predictions,
             (self.processing_img_size, self.processing_img_size),
-            self.video_size,
+            self.video_size[::-1],
         )
 
         return point_predictions.cpu().numpy(), occluded.cpu().numpy()
