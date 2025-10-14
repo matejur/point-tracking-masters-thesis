@@ -2,7 +2,7 @@
 
 This repository contains the source code for my master's thesis on point tracking using [MASt3R](https://github.com/naver/mast3r).
 
-You can check out the final thesis [here](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=174662&lang=slv).
+You can check out the final thesis [here](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=174662&lang=eng).
 
 ## Get started
 
